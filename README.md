@@ -34,102 +34,26 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/string-left-trim-n
-```
 
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
-
-<section class="usage">
-
-## Usage
-
-```javascript
-var ltrimN = require( '@stdlib/string-left-trim-n' );
-```
-
-#### ltrimN( str, n\[, chars] )
-
-Trims `n` characters from the beginning of a string.
-
-```javascript
-var str = '  foo  ';
-var out = ltrimN( str, str.length );
-// returns 'foo  '
-
-out = ltrimN( str, 1 );
-// returns ' foo  '
-```
-
-By default, the function trims whitespace characters. To trim a different set of characters instead, provide a string or an array of characters to trim:
-
-```javascript
-var str = '🐶🐶🐶 Animals 🐶🐶🐶';
-var out = ltrimN( str, str.length, [ '🐶', ' ' ] );
-// returns 'Animals 🐶🐶🐶'
-
-out = ltrimN( str, str.length, '🐶 ' );
-// returns 'Animals 🐶🐶🐶'
-```
-
-</section>
-
-<!-- /.usage -->
 
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
-<section class="notes">
 
-</section>
-
-<!-- /.notes -->
 
 <!-- Package usage examples. -->
 
-<section class="examples">
 
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var ltrimN = require( '@stdlib/string-left-trim-n' );
-
-var out = ltrimN( '   Whitespace   ', 3 );
-// returns 'Whitespace   '
-
-out = ltrimN( '\t\t\tTabs\t\t\t', 2 );
-// returns '\tTabs\t\t\t'
-
-out = ltrimN( '~~~CUSTOM~~~', 3, '~' );
-// returns 'CUSTOM~~~'
-```
-
-</section>
-
-<!-- /.examples -->
 
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
+
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -147,7 +71,7 @@ npm install -g @stdlib/string-left-trim-n-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: ltrimn [options] --n=<number>
@@ -169,7 +93,7 @@ Options:
 
 <section class="notes">
 
-### Notes
+## Notes
 
 -   If the split separator is a [regular expression][mdn-regexp], ensure that the `split` option is either properly escaped or enclosed in quotes.
 
@@ -191,7 +115,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ ltrimn '   Whitespace   ' --n=3
@@ -234,6 +158,11 @@ baz~~~
 
 <section class="related">
 
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-left-trim-n`][@stdlib/string-left-trim-n]</span><span class="delimiter">: </span><span class="description">trim `n` characters from the beginning of a string.</span>
+
+
 </section>
 
 <!-- /.related -->
@@ -251,7 +180,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -274,8 +203,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/string-left-trim-n.svg
-[npm-url]: https://npmjs.org/package/@stdlib/string-left-trim-n
+[npm-image]: http://img.shields.io/npm/v/@stdlib/string-left-trim-n-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/string-left-trim-n-cli
 
 [test-image]: https://github.com/stdlib-js/string-left-trim-n/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/string-left-trim-n/actions/workflows/test.yml?query=branch:main

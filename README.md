@@ -133,7 +133,6 @@ out = ltrimN( '~~~CUSTOM~~~', 3, '~' );
 
 <!-- /.examples -->
 
-
 <!-- Section for describing a command-line interface. -->
 
 * * *

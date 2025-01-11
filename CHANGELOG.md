@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-11)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
 -   [`7785577`](https://github.com/stdlib-js/stdlib/commit/7785577b5ad6c1978644642ccd519548b43f78a9) - **docs:** fix incorrect package description in `string/left-trim-n` _(by Snehil Shah)_
 
 </details>

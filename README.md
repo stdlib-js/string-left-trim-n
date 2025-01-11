@@ -246,6 +246,13 @@ baz~~~
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-right-trim-n`][@stdlib/string/right-trim-n]</span><span class="delimiter">: </span><span class="description">trim `n` characters from the end of a string.</span>
+-   <span class="package-name">[`@stdlib/string-trim`][@stdlib/string/trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the beginning and end of a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -276,7 +283,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -329,6 +336,14 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [mdn-regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+<!-- <related-links> -->
+
+[@stdlib/string/right-trim-n]: https://github.com/stdlib-js/string-right-trim-n
+
+[@stdlib/string/trim]: https://github.com/stdlib-js/string-trim
+
+<!-- </related-links> -->
 
 </section>
 

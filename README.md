@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ltrimN from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-trim-n@deno/mod.js';
+import ltrimN from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-trim-n@v0.2.3-deno/mod.js';
 ```
 
 #### ltrimN( str, n\[, chars] )
@@ -100,7 +100,7 @@ out = ltrimN( str, str.length, '🐶 ' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ltrimN from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-trim-n@deno/mod.js';
+import ltrimN from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-left-trim-n@v0.2.3-deno/mod.js';
 
 var out = ltrimN( '   Whitespace   ', 3 );
 // returns 'Whitespace   '
